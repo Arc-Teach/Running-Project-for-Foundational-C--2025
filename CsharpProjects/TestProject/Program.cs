@@ -119,7 +119,6 @@ foreach (string name in names)
     Console.WriteLine(name);
 }
 
-*/
 
 int[] inventory = { 200, 450, 700, 175, 250 };
 int sum = 0;
@@ -130,3 +129,10 @@ foreach (int items in inventory)
 }
 
 Console.WriteLine(sum);
+
+*/
+
+Random rnd = new Random();
+int number = rnd.Next(1, 6);
+if (number > 4) Console.WriteLine(number);
+Console.WriteLine(number);
